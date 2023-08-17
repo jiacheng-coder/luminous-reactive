@@ -1,0 +1,594 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@types/react': ^18.0.27
+  '@types/react-dom': ^18.0.10
+  '@vitejs/plugin-react-swc': ^3.0.0
+  react: ^18.2.0
+  react-dom: ^18.2.0
+  react-redux: ^8.1.1
+  redux: ^4.2.1
+  vite: ^4.1.0
+
+dependencies:
+  react: 18.2.0
+  react-dom: 18.2.0_react@18.2.0
+  react-redux: 8.1.1_waduhdonjnud5epszr7l5dd7zi
+  redux: 4.2.1
+
+devDependencies:
+  '@types/react': 18.2.20
+  '@types/react-dom': 18.2.7
+  '@vitejs/plugin-react-swc': 3.3.2_vite@4.4.8
+  vite: 4.4.8
+
+packages:
+
+  /@babel/runtime/7.22.10:
+    resolution: {integrity: sha1-rj6WMf2UfLfjYQ0+nY/vX3ZpZoI=, tarball: '@babel/runtime/download/@babel/runtime-7.22.10.tgz'}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      regenerator-runtime: 0.14.0
+    dev: false
+
+  /@esbuild/android-arm/0.18.20:
+    resolution: {integrity: sha1-/tsmW8OlichMwR+BCATyNJR8NoI=, tarball: '@esbuild/android-arm/download/@esbuild/android-arm-0.18.20.tgz'}
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [android]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/android-arm64/0.18.20:
+    resolution: {integrity: sha1-mEtPnI0Dd0Q8wt/O8mbQIkRZNiI=, tarball: '@esbuild/android-arm64/download/@esbuild/android-arm64-0.18.20.tgz'}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [android]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/android-x64/0.18.20:
+    resolution: {integrity: sha1-Nc9BnEz8i6voiT0pbNmQ6en3VvI=, tarball: '@esbuild/android-x64/download/@esbuild/android-x64-0.18.20.tgz'}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [android]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/darwin-arm64/0.18.20:
+    resolution: {integrity: sha1-CBcsvsz5X7w4M5mn85z73a6w18E=, tarball: '@esbuild/darwin-arm64/download/@esbuild/darwin-arm64-0.18.20.tgz'}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/darwin-x64/0.18.20:
+    resolution: {integrity: sha1-1w1XkNi/R1VWtn0Pi3xb3/BT2F0=, tarball: '@esbuild/darwin-x64/download/@esbuild/darwin-x64-0.18.20.tgz'}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/freebsd-arm64/0.18.20:
+    resolution: {integrity: sha1-mHVc0ScH+T8hDiSU1qS1G5aXf1Q=, tarball: '@esbuild/freebsd-arm64/download/@esbuild/freebsd-arm64-0.18.20.tgz'}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [freebsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/freebsd-x64/0.18.20:
+    resolution: {integrity: sha1-wesr/wORX4fCnOzkwaf6H0I7Bm4=, tarball: '@esbuild/freebsd-x64/download/@esbuild/freebsd-x64-0.18.20.tgz'}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [freebsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-arm/0.18.20:
+    resolution: {integrity: sha1-PmF8YfM1CKJxUO5BdUPIq1rMc7A=, tarball: '@esbuild/linux-arm/download/@esbuild/linux-arm-0.18.20.tgz'}
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-arm64/0.18.20:
+    resolution: {integrity: sha1-utQji9j0/CW1oCEoDHcKtfw6AqA=, tarball: '@esbuild/linux-arm64/download/@esbuild/linux-arm64-0.18.20.tgz'}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-ia32/0.18.20:
+    resolution: {integrity: sha1-aZORzMupruYBm3+YkuuZIZ8VcKc=, tarball: '@esbuild/linux-ia32/download/@esbuild/linux-ia32-0.18.20.tgz'}
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-loong64/0.18.20:
+    resolution: {integrity: sha1-5vzLeqwXjdL/uYYEZayJ1/I7l30=, tarball: '@esbuild/linux-loong64/download/@esbuild/linux-loong64-0.18.20.tgz'}
+    engines: {node: '>=12'}
+    cpu: [loong64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-mips64el/0.18.20:
+    resolution: {integrity: sha1-7v86k33pwjEN4wYiqVetG9kYMjE=, tarball: '@esbuild/linux-mips64el/download/@esbuild/linux-mips64el-0.18.20.tgz'}
+    engines: {node: '>=12'}
+    cpu: [mips64el]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-ppc64/0.18.20:
+    resolution: {integrity: sha1-L3FWveILAVJ5k+aIFDWtebqVmfs=, tarball: '@esbuild/linux-ppc64/download/@esbuild/linux-ppc64-0.18.20.tgz'}
+    engines: {node: '>=12'}
+    cpu: [ppc64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-riscv64/0.18.20:
+    resolution: {integrity: sha1-Zig4nyEBI9i0dDBFr4yqfU3fx6Y=, tarball: '@esbuild/linux-riscv64/download/@esbuild/linux-riscv64-0.18.20.tgz'}
+    engines: {node: '>=12'}
+    cpu: [riscv64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-s390x/0.18.20:
+    resolution: {integrity: sha1-JV6B+yibEBAmExhYq5n7pj3PAHE=, tarball: '@esbuild/linux-s390x/download/@esbuild/linux-s390x-0.18.20.tgz'}
+    engines: {node: '>=12'}
+    cpu: [s390x]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/linux-x64/0.18.20:
+    resolution: {integrity: sha1-x2kLNBevMYqbb5bfMDGohlF20zg=, tarball: '@esbuild/linux-x64/download/@esbuild/linux-x64-0.18.20.tgz'}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/netbsd-x64/0.18.20:
+    resolution: {integrity: sha1-MOjNij3e1jl14t8kOMoQlgHr4NE=, tarball: '@esbuild/netbsd-x64/download/@esbuild/netbsd-x64-0.18.20.tgz'}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [netbsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/openbsd-x64/0.18.20:
+    resolution: {integrity: sha1-eBKvMbIFBVh0yAguqc+asNpiF64=, tarball: '@esbuild/openbsd-x64/download/@esbuild/openbsd-x64-0.18.20.tgz'}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [openbsd]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/sunos-x64/0.18.20:
+    resolution: {integrity: sha1-1cJ1w7TnPJsOzTjRymLAIPiHq50=, tarball: '@esbuild/sunos-x64/download/@esbuild/sunos-x64-0.18.20.tgz'}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [sunos]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/win32-arm64/0.18.20:
+    resolution: {integrity: sha1-c7x/Wp+Kd4BfNX+rl/KQ0OSCCsk=, tarball: '@esbuild/win32-arm64/download/@esbuild/win32-arm64-0.18.20.tgz'}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/win32-ia32/0.18.20:
+    resolution: {integrity: sha1-7JPL8O8QhcwS5x4NZh0gVp/0IQI=, tarball: '@esbuild/win32-ia32/download/@esbuild/win32-ia32-0.18.20.tgz'}
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@esbuild/win32-x64/0.18.20:
+    resolution: {integrity: sha1-eGxfQfBDsHr7GvN2g9fDNmiFj20=, tarball: '@esbuild/win32-x64/download/@esbuild/win32-x64-0.18.20.tgz'}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@swc/core-darwin-arm64/1.3.74:
+    resolution: {integrity: sha1-Xsb1BPuM10/VEzCA9sxnAyeoZ80=, tarball: '@swc/core-darwin-arm64/download/@swc/core-darwin-arm64-1.3.74.tgz'}
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@swc/core-darwin-x64/1.3.74:
+    resolution: {integrity: sha1-Xae9xK0Ps7Q3XZwQOWcq6PYe+us=, tarball: '@swc/core-darwin-x64/download/@swc/core-darwin-x64-1.3.74.tgz'}
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@swc/core-linux-arm-gnueabihf/1.3.74:
+    resolution: {integrity: sha1-UtgYaSqq+ROOEXWVYnHK6BB8EJY=, tarball: '@swc/core-linux-arm-gnueabihf/download/@swc/core-linux-arm-gnueabihf-1.3.74.tgz'}
+    engines: {node: '>=10'}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@swc/core-linux-arm64-gnu/1.3.74:
+    resolution: {integrity: sha1-sjC6hiPts8S5zv+vms7Yv3qfyCk=, tarball: '@swc/core-linux-arm64-gnu/download/@swc/core-linux-arm64-gnu-1.3.74.tgz'}
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@swc/core-linux-arm64-musl/1.3.74:
+    resolution: {integrity: sha1-Bf8PMEarod2dLYeTwQzUohpG/X8=, tarball: '@swc/core-linux-arm64-musl/download/@swc/core-linux-arm64-musl-1.3.74.tgz'}
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@swc/core-linux-x64-gnu/1.3.74:
+    resolution: {integrity: sha1-qY2amE1HQEqi3keN080z29GVu6I=, tarball: '@swc/core-linux-x64-gnu/download/@swc/core-linux-x64-gnu-1.3.74.tgz'}
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@swc/core-linux-x64-musl/1.3.74:
+    resolution: {integrity: sha1-leBEMeuplLT64jxXitG6c/tywh0=, tarball: '@swc/core-linux-x64-musl/download/@swc/core-linux-x64-musl-1.3.74.tgz'}
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@swc/core-win32-arm64-msvc/1.3.74:
+    resolution: {integrity: sha1-YstwgJSokCowf7pu6ghoLbzNRy0=, tarball: '@swc/core-win32-arm64-msvc/download/@swc/core-win32-arm64-msvc-1.3.74.tgz'}
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@swc/core-win32-ia32-msvc/1.3.74:
+    resolution: {integrity: sha1-/loti73bYJ5VTg2NZ4CTlzCWMww=, tarball: '@swc/core-win32-ia32-msvc/download/@swc/core-win32-ia32-msvc-1.3.74.tgz'}
+    engines: {node: '>=10'}
+    cpu: [ia32]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@swc/core-win32-x64-msvc/1.3.74:
+    resolution: {integrity: sha1-T9RZxyZNTJfRspZe1qqGsXJc44s=, tarball: '@swc/core-win32-x64-msvc/download/@swc/core-win32-x64-msvc-1.3.74.tgz'}
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /@swc/core/1.3.74:
+    resolution: {integrity: sha1-sdGjxGyjK38Q2XDIognSkTyd4lE=, tarball: '@swc/core/download/@swc/core-1.3.74.tgz'}
+    engines: {node: '>=10'}
+    requiresBuild: true
+    peerDependencies:
+      '@swc/helpers': ^0.5.0
+    peerDependenciesMeta:
+      '@swc/helpers':
+        optional: true
+    optionalDependencies:
+      '@swc/core-darwin-arm64': 1.3.74
+      '@swc/core-darwin-x64': 1.3.74
+      '@swc/core-linux-arm-gnueabihf': 1.3.74
+      '@swc/core-linux-arm64-gnu': 1.3.74
+      '@swc/core-linux-arm64-musl': 1.3.74
+      '@swc/core-linux-x64-gnu': 1.3.74
+      '@swc/core-linux-x64-musl': 1.3.74
+      '@swc/core-win32-arm64-msvc': 1.3.74
+      '@swc/core-win32-ia32-msvc': 1.3.74
+      '@swc/core-win32-x64-msvc': 1.3.74
+    dev: true
+
+  /@types/hoist-non-react-statics/3.3.1:
+    resolution: {integrity: sha1-ESSq/lEYy1kZd66xzqrtEHDrA58=, tarball: '@types/hoist-non-react-statics/download/@types/hoist-non-react-statics-3.3.1.tgz'}
+    dependencies:
+      '@types/react': 18.2.20
+      hoist-non-react-statics: 3.3.2
+    dev: false
+
+  /@types/prop-types/15.7.5:
+    resolution: {integrity: sha1-XxnSuFqY6VWANvajysyIGUIPBc8=, tarball: '@types/prop-types/download/@types/prop-types-15.7.5.tgz'}
+
+  /@types/react-dom/18.2.7:
+    resolution: {integrity: sha1-ZyIqCMCmrgoNozw1MjSCd8cKu2M=, tarball: '@types/react-dom/download/@types/react-dom-18.2.7.tgz'}
+    dependencies:
+      '@types/react': 18.2.20
+
+  /@types/react/18.2.20:
+    resolution: {integrity: sha1-FgVVeoPfXIosxO63Q7PfwOtqrrI=, tarball: '@types/react/download/@types/react-18.2.20.tgz'}
+    dependencies:
+      '@types/prop-types': 15.7.5
+      '@types/scheduler': 0.16.3
+      csstype: 3.1.2
+
+  /@types/scheduler/0.16.3:
+    resolution: {integrity: sha1-zvCePsmvHWPSpsxbODpzfiTm3PU=, tarball: '@types/scheduler/download/@types/scheduler-0.16.3.tgz'}
+
+  /@types/use-sync-external-store/0.0.3:
+    resolution: {integrity: sha1-tnJdX0rySs4zs2+v0pUTbnVQn0M=, tarball: '@types/use-sync-external-store/download/@types/use-sync-external-store-0.0.3.tgz'}
+    dev: false
+
+  /@vitejs/plugin-react-swc/3.3.2_vite@4.4.8:
+    resolution: {integrity: sha1-NKgsFygGb0iobf7LLxXfYPiSB/s=, tarball: '@vitejs/plugin-react-swc/download/@vitejs/plugin-react-swc-3.3.2.tgz'}
+    peerDependencies:
+      vite: ^4
+    dependencies:
+      '@swc/core': 1.3.74
+      vite: 4.4.8
+    transitivePeerDependencies:
+      - '@swc/helpers'
+    dev: true
+
+  /csstype/3.1.2:
+    resolution: {integrity: sha1-HUv51XLxHBQDHwQ24cELwfVx9Qs=, tarball: csstype/download/csstype-3.1.2.tgz}
+
+  /esbuild/0.18.20:
+    resolution: {integrity: sha1-Rwn1o0gBtDt5mrfW2C9yhKm3p6Y=, tarball: esbuild/download/esbuild-0.18.20.tgz}
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    optionalDependencies:
+      '@esbuild/android-arm': 0.18.20
+      '@esbuild/android-arm64': 0.18.20
+      '@esbuild/android-x64': 0.18.20
+      '@esbuild/darwin-arm64': 0.18.20
+      '@esbuild/darwin-x64': 0.18.20
+      '@esbuild/freebsd-arm64': 0.18.20
+      '@esbuild/freebsd-x64': 0.18.20
+      '@esbuild/linux-arm': 0.18.20
+      '@esbuild/linux-arm64': 0.18.20
+      '@esbuild/linux-ia32': 0.18.20
+      '@esbuild/linux-loong64': 0.18.20
+      '@esbuild/linux-mips64el': 0.18.20
+      '@esbuild/linux-ppc64': 0.18.20
+      '@esbuild/linux-riscv64': 0.18.20
+      '@esbuild/linux-s390x': 0.18.20
+      '@esbuild/linux-x64': 0.18.20
+      '@esbuild/netbsd-x64': 0.18.20
+      '@esbuild/openbsd-x64': 0.18.20
+      '@esbuild/sunos-x64': 0.18.20
+      '@esbuild/win32-arm64': 0.18.20
+      '@esbuild/win32-ia32': 0.18.20
+      '@esbuild/win32-x64': 0.18.20
+    dev: true
+
+  /fsevents/2.3.2:
+    resolution: {integrity: sha1-ilJveLj99GI7cJ4Ll1xSwkwC/Ro=, tarball: fsevents/download/fsevents-2.3.2.tgz}
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /hoist-non-react-statics/3.3.2:
+    resolution: {integrity: sha1-7OCsr3HWLClpwuxZ/v9CpLGoW0U=, tarball: hoist-non-react-statics/download/hoist-non-react-statics-3.3.2.tgz}
+    dependencies:
+      react-is: 16.13.1
+    dev: false
+
+  /js-tokens/4.0.0:
+    resolution: {integrity: sha1-GSA/tZmR35jjoocFDUZHzerzJJk=, tarball: js-tokens/download/js-tokens-4.0.0.tgz}
+    dev: false
+
+  /loose-envify/1.4.0:
+    resolution: {integrity: sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8=, tarball: loose-envify/download/loose-envify-1.4.0.tgz}
+    hasBin: true
+    dependencies:
+      js-tokens: 4.0.0
+    dev: false
+
+  /nanoid/3.3.6:
+    resolution: {integrity: sha1-RDOAyFbW6fmCQmfZYLQjatWD6kw=, tarball: nanoid/download/nanoid-3.3.6.tgz}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+    dev: true
+
+  /picocolors/1.0.0:
+    resolution: {integrity: sha1-y1vcdP8/UYkiNur3nWi8RFZKuBw=, tarball: picocolors/download/picocolors-1.0.0.tgz}
+    dev: true
+
+  /postcss/8.4.27:
+    resolution: {integrity: sha1-I01+S3LjS6WpLCljZzQ0ng2cMFc=, tarball: postcss/download/postcss-8.4.27.tgz}
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      nanoid: 3.3.6
+      picocolors: 1.0.0
+      source-map-js: 1.0.2
+    dev: true
+
+  /react-dom/18.2.0_react@18.2.0:
+    resolution: {integrity: sha1-IqrzhwjbJnTtmtoiTKSqcI2CHj0=, tarball: react-dom/download/react-dom-18.2.0.tgz}
+    peerDependencies:
+      react: ^18.2.0
+    dependencies:
+      loose-envify: 1.4.0
+      react: 18.2.0
+      scheduler: 0.23.0
+    dev: false
+
+  /react-is/16.13.1:
+    resolution: {integrity: sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=, tarball: react-is/download/react-is-16.13.1.tgz}
+    dev: false
+
+  /react-is/18.2.0:
+    resolution: {integrity: sha1-GZQx7qqi4J+GQn77tPFHPttHYJs=, tarball: react-is/download/react-is-18.2.0.tgz}
+    dev: false
+
+  /react-redux/8.1.1_waduhdonjnud5epszr7l5dd7zi:
+    resolution: {integrity: sha1-jnQPP9hkpM0N5bqc3IrTnMnnyBo=, tarball: react-redux/download/react-redux-8.1.1.tgz}
+    peerDependencies:
+      '@types/react': ^16.8 || ^17.0 || ^18.0
+      '@types/react-dom': ^16.8 || ^17.0 || ^18.0
+      react: ^16.8 || ^17.0 || ^18.0
+      react-dom: ^16.8 || ^17.0 || ^18.0
+      react-native: '>=0.59'
+      redux: ^4 || ^5.0.0-beta.0
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+      '@types/react-dom':
+        optional: true
+      react-dom:
+        optional: true
+      react-native:
+        optional: true
+      redux:
+        optional: true
+    dependencies:
+      '@babel/runtime': 7.22.10
+      '@types/hoist-non-react-statics': 3.3.1
+      '@types/react': 18.2.20
+      '@types/react-dom': 18.2.7
+      '@types/use-sync-external-store': 0.0.3
+      hoist-non-react-statics: 3.3.2
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-is: 18.2.0
+      redux: 4.2.1
+      use-sync-external-store: 1.2.0_react@18.2.0
+    dev: false
+
+  /react/18.2.0:
+    resolution: {integrity: sha1-VVvZhZKIMlX6AN4U8RUakXtdd9U=, tarball: react/download/react-18.2.0.tgz}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      loose-envify: 1.4.0
+    dev: false
+
+  /redux/4.2.1:
+    resolution: {integrity: sha1-wI9DBoJsSbXp3JAd7gRS6o/OYZc=, tarball: redux/download/redux-4.2.1.tgz}
+    dependencies:
+      '@babel/runtime': 7.22.10
+    dev: false
+
+  /regenerator-runtime/0.14.0:
+    resolution: {integrity: sha1-XhnWjrEtSG95fhWjxqkY987F60U=, tarball: regenerator-runtime/download/regenerator-runtime-0.14.0.tgz}
+    dev: false
+
+  /rollup/3.27.2:
+    resolution: {integrity: sha1-Wa3Jc1BECCib6J5ZeOk4zoUslSA=, tarball: rollup/download/rollup-3.27.2.tgz}
+    engines: {node: '>=14.18.0', npm: '>=8.0.0'}
+    hasBin: true
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
+
+  /scheduler/0.23.0:
+    resolution: {integrity: sha1-uoBBr8PTDrIGpIe2s4QALk5h/f4=, tarball: scheduler/download/scheduler-0.23.0.tgz}
+    dependencies:
+      loose-envify: 1.4.0
+    dev: false
+
+  /source-map-js/1.0.2:
+    resolution: {integrity: sha1-rbw2HZxi3zgBJefxYfccgm8eSQw=, tarball: source-map-js/download/source-map-js-1.0.2.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: true
+
+  /use-sync-external-store/1.2.0_react@18.2.0:
+    resolution: {integrity: sha1-fb79bvP+TnZ6DPXXKHqs+1hGkoo=, tarball: use-sync-external-store/download/use-sync-external-store-1.2.0.tgz}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
+    dev: false
+
+  /vite/4.4.8:
+    resolution: {integrity: sha1-MeSkOPh0hpXGi9V//SYrqTVA/fc=, tarball: vite/download/vite-4.4.8.tgz}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': '>= 14'
+      less: '*'
+      lightningcss: ^1.21.0
+      sass: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.4.0
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      less:
+        optional: true
+      lightningcss:
+        optional: true
+      sass:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+    dependencies:
+      esbuild: 0.18.20
+      postcss: 8.4.27
+      rollup: 3.27.2
+    optionalDependencies:
+      fsevents: 2.3.2
+    dev: true
